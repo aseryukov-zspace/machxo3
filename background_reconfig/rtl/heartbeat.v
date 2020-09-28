@@ -21,7 +21,7 @@ always @(*)
     ms_p = (ms_c == DIVIDER);
 
 ///////////////////////////////////////////////////////////////////////////////
-// RAM contains 2048 16 bit words. Each word is initialized with value = addr*2
+// RAM contains 2048 16 bit words. Each word is initialized with value = addr
 
 reg  [10:0] ram_addr;   // count of milliseconds
 wire [15:0] ram_data;
