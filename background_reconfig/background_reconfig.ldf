@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="background_reconfig" device="LCMXO3LF-6900C-6BG256I" default_implementation="br_impl">
+    <Options/>
+    <Implementation title="br_impl" dir="br_impl" description="br_impl" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="top_br"/>
+        <Source name="rtl/top_br.v" type="Verilog" type_short="Verilog">
+            <Options top_module="top_br"/>
+        </Source>
+        <Source name="rtl/heartbeat.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="XO3LF-6900C/ram_dpt_16x2k.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="br.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="br_impl.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Implementation title="nobr_impl" dir="nobr_impl" description="nobr_impl" synthesis="lse" default_strategy="Area">
+        <Options def_top="top_nobr" top="top_nobr"/>
+        <Source name="rtl/top_nobr.v" type="Verilog" type_short="Verilog">
+            <Options top_module="top_nobr"/>
+        </Source>
+        <Source name="rtl/heartbeat.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="XO3LF-6900C/ram_dpt_16x2k.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="nobr_impl.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="nobr_impl.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="background_reconfig1.sty"/>
+</BaliProject>

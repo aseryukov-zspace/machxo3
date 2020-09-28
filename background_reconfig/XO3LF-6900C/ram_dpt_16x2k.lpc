@@ -1,0 +1,56 @@
+[Device]
+Family=machxo3lf
+PartType=LCMXO3LF-6900C
+PartName=LCMXO3LF-6900C-6BG256I
+SpeedGrade=6
+Package=CABGA256
+OperatingCondition=IND
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=RAM_DP_TRUE
+CoreRevision=7.5
+ModuleName=ram_dpt_16x2k
+SourceFormat=Verilog HDL
+ParameterFileVersion=1.0
+Date=09/28/2020
+Time=11:44:29
+
+[Parameters]
+Verilog=1
+VHDL=0
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+RAddress=2048
+RData=16
+WAddress=2048
+WData=16
+ROutputEn=0
+RClockEn=0
+WOutputEn=0
+WClockEn=0
+enByte=0
+ByteSize=9
+Optimization=Speed
+Reset=Sync
+Reset1=Sync
+Init=mem
+MemFile=../bank.mem
+MemFormat=orca
+EnECC=0
+Pipeline=0
+WriteA=Normal
+WriteB=Normal
+init_data=0
+
+[FilesGenerated]
+../bank.mem=mem
+
+[Command]
+cmd_line= -w -n ram_dpt_16x2k -lang verilog -synth lse -bus_exp 7 -bb -arch xo3c00f -type ramdp -device LCMXO3LF-6900C -aaddr_width 11 -widtha 16 -baddr_width 11 -widthb 16 -anum_words 2048 -bnum_words 2048 -cascade -1 -memfile ../bank.mem -memformat orca -writemodeA NORMAL -writemodeB NORMAL

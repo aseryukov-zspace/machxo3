@@ -1,0 +1,5 @@
+#Start recording tcl command: 9/28/2020 15:52:23
+#Project Location: C:/code/machxo3/background_reconfig; Project name: background_reconfig
+prj_project open "C:/code/machxo3/background_reconfig/background_reconfig.ldf"
+prj_impl active "br_impl"
+#Stop recording: 9/28/2020 15:55:00

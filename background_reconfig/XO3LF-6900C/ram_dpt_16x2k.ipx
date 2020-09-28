@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="ram_dpt_16x2k" module="RAM_DP_TRUE" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2020 09 28 11:44:32.776" version="7.5" type="Module" synthesis="lse" source_format="Verilog">
+  <Package>
+		<File name="" type="" modified="2020 09 28 11:44:32.776"/>
+		<File name="../bank.mem" type="mem" modified="2020 09 28 11:41:09.093"/>
+		<File name="ram_dpt_16x2k.lpc" type="lpc" modified="2020 09 28 11:44:29.429"/>
+		<File name="ram_dpt_16x2k.v" type="top_level_verilog" modified="2020 09 28 11:44:29.507"/>
+		<File name="ram_dpt_16x2k_tmpl.v" type="template_verilog" modified="2020 09 28 11:44:29.507"/>
+		<File name="tb_ram_dpt_16x2k_tmpl.v" type="testbench_verilog" modified="2020 09 28 11:44:29.538"/>
+  </Package>
+</DiamondModule>
