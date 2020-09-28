@@ -1,0 +1,5 @@
+#Start recording tcl command: 5/14/2020 15:58:34
+#Project Location: C:/Users/shossner/Documents/shossner/internal_projects/ReleaseProcessing/ReleasePrep/MachXO3LF_Starter_Kit/project; Project name: Blink
+prj_project open "C:/Users/shossner/Documents/shossner/internal_projects/ReleaseProcessing/ReleasePrep/MachXO3LF_Starter_Kit/project/Blink.ldf"
+prj_project save
+#Stop recording: 5/14/2020 15:59:43
